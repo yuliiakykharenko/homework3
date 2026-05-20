@@ -5,9 +5,15 @@ body {
     color: #2e2f42;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+   margin: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -17,16 +23,45 @@ a {
 
 button {
     font-family: inherit;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
+section {
+    padding: 120px 0;
+}
 
+.container {
+    padding: 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+}
 .section-title {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .color-accent {
     color:#4d5ae5;
+}
+
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
 }

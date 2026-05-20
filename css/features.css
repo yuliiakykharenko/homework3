@@ -1,3 +1,12 @@
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .team-subtitle {
 background-color: #E7E9FC;
 }
@@ -8,6 +17,7 @@ background-color: #E7E9FC;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -15,5 +25,8 @@ background-color: #E7E9FC;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
+
+
 

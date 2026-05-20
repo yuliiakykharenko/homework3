@@ -10,11 +10,19 @@
 
 .header-logo .logo-text {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.footer-logo .logo-text {
-    color: #f4f4fd;
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
 }
 
 .nav-link {
@@ -23,10 +31,20 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display:block;
 }
 
 .contacts {
     font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+
+
 }
 
 .contacts-link {
@@ -34,6 +52,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:focus,

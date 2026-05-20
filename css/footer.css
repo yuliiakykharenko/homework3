@@ -1,5 +1,15 @@
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo .logo-text {
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -7,8 +17,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .logo {
     line-height: 1.33;
 }
+

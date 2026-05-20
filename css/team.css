@@ -16,6 +16,15 @@
     background-color: #fff;
 }
 
+.team-item img {
+    width: 100%;
+}
+
+.team-info {
+    padding: 32px 16px;
+    text-align: center;
+}
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -23,6 +32,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
