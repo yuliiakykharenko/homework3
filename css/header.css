@@ -17,12 +17,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .nav-link {
@@ -42,7 +42,7 @@
 .contacts-list {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
+    margin-left: 340px;
 
 
 }
