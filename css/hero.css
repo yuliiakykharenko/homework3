@@ -4,11 +4,9 @@
     padding: 188px 0;
 }
 
-
 .main-title {
     max-width: 496px;
-    margin: 0 auto;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -27,7 +25,6 @@
     cursor: pointer;
     display: block;
     min-width: 169px;
-    height: 56px;
     margin: 0 auto;
     padding: 16px 32px;
     border-radius: 4px;
